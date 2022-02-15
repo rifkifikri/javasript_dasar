@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping</title>
+</head>
+<body>
+    <!-- membuat tampilan segitiga dengan  forloop -->
+    <script>
+        for(let x=0; x<=10;x++){
+            for(let y=0; y<=x;y++){
+                document.write(y);
+            }
+            document.write("<br>");
+        }
+    </script>
+
+    <!-- membuat perulangan dengan while -->
+    <script>
+        let x=0;
+        while(x<=10){
+                document.write("Halo Rifki ke-"+x+"<br>");
+            x++;
+        }
+    </script>
+    <!-- membuat bilangan genap dengan perulangan while -->
+    <script>
+        let p=0;
+        while(p<=10){
+            if(p%2==0){
+                document.write("Halo kiki ke-"+p+"<br>");
+            }
+            p++;
+        }
+    </script>
+</body>
+</html>
